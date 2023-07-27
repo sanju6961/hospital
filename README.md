@@ -40,28 +40,33 @@ This is an example of how to list things you need to use the software and how to
 Directory Structure and flow of The Code
 Hospital-API
 
-    |------ config
-             └--- mongoose.js
-    
-    |------ controller
-    |         └--- doctorController.js
-    |         └--- patientController.js
-    |         └--- reportController.js
-    |------ middleware
-    
-            └--- authMiddleware.js
-    
-    |------ models
-    |         └--- doctor.js
-    |         └--- patient.js
-    |         └--- report.js
-    
-    |------ routes
-    |         └--- doctor.js
-    |         └--- patient.js
-    |         └--- report.js
-    
-    |------ .gitignore
-    |------ index.js
-    |------ package.json
-    |------ package-lock.json
+   
+
+
+
+
+|------ config
+         └--- mongoose.js
+
+|------ controller
+|         └--- doctorController.js
+|         └--- patientController.js
+|         └--- reportController.js
+|------ middleware
+
+        └--- authMiddleware.js
+
+|------ models
+|         └--- doctor.js
+|         └--- patient.js
+|         └--- report.js
+
+|------ routes
+|         └--- doctor.js
+|         └--- patient.js
+|         └--- report.js
+
+|------ .gitignore
+|------ index.js
+|------ package.json
+|------ package-lock.json
